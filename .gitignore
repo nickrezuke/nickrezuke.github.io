@@ -1,0 +1,10 @@
+# Log file
+*.log
+
+# VS Code files
+.vscode/
+
+# Mac DS_Store files and Apple Double files
+.DS_Store
+.DS_Store?
+._*

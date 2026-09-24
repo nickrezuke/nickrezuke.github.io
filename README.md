@@ -3,7 +3,7 @@
 <!-- TODO: Add Header Image -->
 
 ## About
-This is the repository contains my personal github.io website. 
+This repository contains my personal github.io website. 
 It is my digital portfolio and personal space on the internet. 
 You can view the live site here: [nickrezuke.github.io.](https://nickrezuke.github.io/)
 It showcases a little about me, my projects, and how to get in touch with me.

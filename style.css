@@ -7,14 +7,30 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('favicon.png');
+    background-repeat: repeat;
+    background-size: 64px;
+    animation: scrollBackground 3s linear infinite;
 }
+
+@keyframes scrollBackground {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 192px 128px;
+    }
+}
+
+
 
 /* Style the central card container */
 .card {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px rgb(29, 29, 29);
     text-align: center;
     max-width: 400px;
 }
@@ -27,6 +43,7 @@ h1 {
 p {
     color: #5f6368;
     line-height: 1.5;
+    padding: 2px;
 }
 
 /* Style the button and add a smooth hover transition */

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Add a click event listener to the button
     ActionButton.addEventListener("click", () => {
-        greetingText.textContent = "✨ Hello, World! 🚀";
+        greetingText.textContent = "HELLO, WORLD!";
         greetingText.style.color = "#34a853"; // Changes text color to green on click
     });
 
